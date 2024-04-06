@@ -1,0 +1,304 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: #faf9f8;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+
+
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+.top {
+    margin-top: 2%;
+    box-sizing: border-box;     
+    color: #000;
+    height: 55px;
+	padding: 14px 14px 14px 50px;
+    display: flex;
+    align-items: center;
+ }    
+
+ .top .left li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+ }
+
+.top .left li{
+    margin-right: 20px;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top .middle {
+    margin-left: 585px;
+    margin-top: 65px;
+}
+
+.top .middle img{
+    width: 180px;
+    height: 180px;
+}
+
+.top .right{
+    margin-left: 1335px;
+    position: absolute;
+}
+
+.top .right li:nth-child(2){
+   position: absolute;
+    margin-top: 6px;
+    margin-left: -17px;
+}
+
+.top .right li:nth-child(3){
+    position: absolute;
+     margin-left: 55px;
+ }
+
+ .top .right li:nth-child(4){
+    position: absolute;
+     margin-top: 6px;
+     margin-left: 90px;
+ }
+
+ .top .right li:nth-child(5){
+    position: absolute;
+    margin-left: 178px;;
+ }
+
+ .top .right p{
+    margin-top: -23px;
+    margin-left: 255px;
+}
+
+.top .right a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.top .right img {
+    width: auto;
+    height: 25px;
+}
+
+.top .right  li {
+    
+    margin-right: 20px;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.middlee {
+    margin-top: 2%;
+    box-sizing: border-box;
+    color: #000;
+    height: 55px;
+    padding: 14px 14px 14px 50px;
+    align-items: center;
+    justify-content: space-between;
+ }  
+
+ .middlee .main ul{
+    margin-left: 35%;
+    margin-top: 2%;
+ }
+ 
+
+ .middlee .main li{
+    margin-right: 35px;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.down ul{
+    margin-top: 100px;
+    margin-left: 540px;
+}
+
+.down  li{
+    margin-right: 35px;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-button, .mobile-nav{
+    display: none;
+}
+
+#CASE h1{
+    margin-top: 10px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+#CASE {
+    margin-left: 80px;
+    padding: 2rem;
+    margin-right: 80px;
+}
+
+.products a {
+    color:#fff;
+}
+
+.products {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product .case5{
+    width: 235px;
+}
+
+.product img{
+    height: 318.500px;
+    width: 318.500px;
+}
+
+.product {
+    width: 80%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-left: 50px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.Airpods a{
+    color: #fff;
+}
+
+.Airpods {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.airpod img{
+    height: 318.500px;
+    width: 318.500px;
+}
+
+.airpod {
+    width: 20%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
